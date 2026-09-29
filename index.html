@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <!--  Añadid etiqueta viewport para accesibilidad en móviles y permitir zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <title>Web de Pedro Fernandez - AsturBarber</title>
+  </head>
+
+  <body>
+    <div id="agrupar">
+      <header id="cabecera">
+        <h1>ASTURBARBER</h1>
+      </header>
+
+      <!-- Atributo aria-label para identificar el menú de navegación -->
+      <nav aria-label="Menú principal">
+        <ul>
+          <li><a href="#">PRINCIPAL</a></li>
+          <li><a href="portfolio/socios.html">PIDE TU CITA</a></li>
+        </ul>
+      </nav>
+
+      <!--  Etiqueta semántica <main> envolviendo el contenido central -->
+      <main>
+        <section>
+          <article>
+            <header>
+              <!-- Corregidla jerarquía de títulos a <h2>  -->
+              <h2>Conócenos</h2>
+            </header>
+            <!--  Añadi atributo alt descriptivo a la imagen -->
+            <img
+              id="local"
+              src="imagenes_video/local.jpg"
+              alt="Interior del local de la peluquería AsturHair"
+            />
+            <p>
+              AsturHair es una peluquería moderna y cercana, pensada para que
+              cada cliente encuentre su estilo y se sienta cómodo. Ofrecemos
+              cortes, peinados, coloración y cuidados capilares, utilizando
+              productos de calidad y adaptándonos a las necesidades de cada
+              persona. En AsturHair, nuestro objetivo es que salgas con un nuevo
+              look y, sobre todo, con una sonrisa. 💇‍♀️💇‍♂️✨
+            </p>
+          </article>
+        </section>
+
+        <aside>
+          <h2>Últimas noticias</h2>
+          <div>
+            <h3>TINTES TEMPORALES</h3>
+            <!--  Añadido atributo alt descriptivo -->
+            <img
+              id="zumba"
+              src="imagenes_video/zumba.jpg"
+              alt="Muestra de tintes capilares temporales y peinados"
+            />
+            <p>
+              Se incluirán en el servicio completo lavado peinado corte y tinte
+              a su gusto
+            </p>
+          </div>
+          <div>
+            <h3>PRODUCTOS</h3>
+            <!-- : Añadido atributo alt descriptivo -->
+            <img
+              id="suplementos"
+              src="imagenes_video/suplementos.jpg"
+              alt="Productos y tratamientos capilares de primeras marcas"
+            />
+            <p>
+              En AsturHair tendremos a la venta todo tipo de productos para pelo
+              de las mejores marcas
+            </p>
+          </div>
+        </aside>
+      </main>
+
+      <footer>
+        <p>© 2026/2027 AsturHair Todos los derechos reservados.</p>
+        <!--  Enlace funcional accesible para el correo electrónico -->
+        <p>
+          <a href="mailto:asturhairaviles@gmail.com"
+            >asturhairaviles@gmail.com</a
+          >
+        </p>
+      </footer>
+    </div>
+
+    <p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img
+          style="border: 0; width: 88px; height: 31px"
+          src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+          alt="¡CSS Válido!"
+        />
+      </a>
+    </p>
+  </body>
+</html>
